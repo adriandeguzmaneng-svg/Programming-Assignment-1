@@ -26,6 +26,7 @@ ___
 ## Overview
 We are tasked to create a function that changes specific words into emoticons. Given a sentence
 as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
+
 <img width="253" height="161" alt="image" src="https://github.com/user-attachments/assets/b14c0a16-b9b0-457b-91b1-8a3c7158ee9c" />
 
 ## Code
