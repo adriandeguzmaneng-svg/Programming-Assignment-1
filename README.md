@@ -87,14 +87,12 @@ middle, and last, with middle being everything in between the first and last ele
 ## Code
 ```python
 lst = [1,2,3,4,5,6]
-print("first:",lst[0]) #get the first element of the list and replace
-last = lst[-1] #get the last element of the list
+print("first:",lst[0]) 
+last = lst[-1] 
 del(lst[0])
-del(lst[-1]) #delete the first and last element of the list so that the only ones left is the middle list
+del(lst[-1]) 
 print("middle:",lst)
 print("last:",last)
-## How i made it
-For the unpacking list problem, i first displayed the 1st element using the command "print(lst[0])", after that i stored the last element into a variable using the code "last = lst[-1]" since the negative index moves backward thus moving once backward results to the last element in the array.I then proceeded to delete the first and the last element using the "del()" code so that the element that will be left is the middle elements. With this i displayed the whole array since the only thing left is the middle elements and proccedded to print the last element that is stored in a variable.
 ```
 ## How does it work
 ```python
